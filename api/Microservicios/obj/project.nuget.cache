@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CxK/wAGlScnPLQ7FZSplCvAtQR9BCLVDlc2K9NrIYLzdiSd5DpuB+ZwgCwZIZjhKVNCA8SWNZSJFJdEyJk4ovQ==",
+  "dgSpecHash": "neYYQE9FalcrScG6zDmdVPzhfkMWu5qPAV/02EmPHMpzkUSKV78lulw3Wnyj8MOKzJpKWYT+Dj434iFJJ5oU7g==",
   "success": true,
   "projectFilePath": "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\Microservicios\\Microservicios.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

@@ -37,3 +37,4 @@ D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\Micro
 D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\Microservicios\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\Microservicios\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\Microservicios\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\Microservicios\bin\Debug\net8.0\Dapper.dll

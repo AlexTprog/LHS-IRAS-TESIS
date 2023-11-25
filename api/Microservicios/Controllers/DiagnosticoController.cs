@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using APILHS.MODELS;
+using Microsoft.AspNetCore.Mvc;
 using System.Net;
 namespace Microservicios.Controllers
 {
@@ -7,14 +8,16 @@ namespace Microservicios.Controllers
     {
 
         [HttpPost]
+        [HttpPut]
         [Route("PerCase")]
-        public dynamic PostPerCase([FromBody] List<APILHS.MODELS.Diagnostico>? lDiagnostic)
+        public dynamic PostPerCase([FromBody] Diagnostic.RequestDiagnostic DiagnosticList)
         {
             try
             {
-                var PostRecordDiagnostic = APILHS.DATA.Diagnostico.Diagnostico.PostRecordCasePerCase(lDiagnostic);
+                var PostRecordDiagnostic = APILHS.DATA.Diagnostico.Diagnostico.PostRecordCasePerCase(DiagnosticList);
 
                 return new { PostRecordDiagnostic };
+
             }
             catch (Exception ex)
             {

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Cxp282G/KT4ZJW4Q7/MyDNqi6L2za2CGPOX5VGjOJ1kxnp4W1t+YZEZxNg8RMFX3PLMU4AlnOOoIUoz3BRbeCw==",
+  "dgSpecHash": "4NrcY8i/fH8ZK8l1VY72LMuou2fP0wvdsiLZV628sGVkQpfZcJTkkKZEWs1YTOog38TRMKT5k+kY6/wELtWyWQ==",
   "success": true,
   "projectFilePath": "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\APILSH\\APILHS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

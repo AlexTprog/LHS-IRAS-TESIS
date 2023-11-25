@@ -9,24 +9,12 @@ namespace APILHS.DATA
 
         public static string Get()
         {
+           
             string connection = string.Format("Server={0};Database={1};User={2};Password={3};",
-            "localhost", "LHS", "WEduardo", "12345678");
+            "LAPTOP-9T93LIFD\\SERVIDORSQL", "BD_HOSPITALES", "weduardo", "sysadmin");
 
             return connection;
         }
 
-        public IDataReader InsertDiagnotico(APILHS.MODELS.Diagnostico diag)
-        {
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                string storedProcedureName = "Sp";
-                SqlCommand command = new SqlCommand(storedProcedureName, connection);
-
-                connection.Open();
-                command.CommandType = CommandType.StoredProcedure;
-                command.Parameters.AddWithValue("@Param", diag.Id);
-                return command.ExecuteReader();
-            }
-        }
     }
 }
