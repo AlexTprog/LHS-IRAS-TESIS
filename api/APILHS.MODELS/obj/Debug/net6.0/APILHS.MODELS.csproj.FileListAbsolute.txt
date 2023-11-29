@@ -1,0 +1,12 @@
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\bin\Debug\net6.0\APILHS.MODELS.deps.json
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\bin\Debug\net6.0\APILHS.MODELS.dll
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\bin\Debug\net6.0\APILHS.MODELS.pdb
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\obj\Debug\net6.0\APILHS.MODELS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\obj\Debug\net6.0\APILHS.MODELS.AssemblyInfoInputs.cache
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\obj\Debug\net6.0\APILHS.MODELS.AssemblyInfo.cs
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\obj\Debug\net6.0\APILHS.MODELS.csproj.CoreCompileInputs.cache
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\obj\Debug\net6.0\APILHS.MODELS.sourcelink.json
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\obj\Debug\net6.0\APILHS.MODELS.dll
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\obj\Debug\net6.0\refint\APILHS.MODELS.dll
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\obj\Debug\net6.0\APILHS.MODELS.pdb
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.MODELS\obj\Debug\net6.0\ref\APILHS.MODELS.dll

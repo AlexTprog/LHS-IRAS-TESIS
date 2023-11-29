@@ -1,6 +1,5 @@
-﻿using APILHS.DATA;
-using APILHS.MODELS;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics.CodeAnalysis;
 
 namespace APILHS.Controllers
 {
@@ -15,6 +14,7 @@ namespace APILHS.Controllers
             _logger = logger;
         }
 
+        
         [HttpPost]
         public IActionResult Get()
         {
@@ -22,6 +22,8 @@ namespace APILHS.Controllers
             var diag = data.InsertDiagnotico(new Diagnostico { Id = 1 });
 
             return new JsonResult(diag);
+           
         }
+        
     }
 }

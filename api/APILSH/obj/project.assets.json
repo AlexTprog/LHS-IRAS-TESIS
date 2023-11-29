@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Dapper/2.1.24": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -239,6 +252,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "APILHS.MODELS": "1.0.0",
+          "Dapper": "2.1.24",
           "System.Data.SqlClient": "4.8.5"
         },
         "compile": {
@@ -261,6 +275,27 @@
     }
   },
   "libraries": {
+    "Dapper/2.1.24": {
+      "sha512": "/2t2vsdJyZRsk13AsWigZpsuFvEwK+o3v862cEULXoww905gyKhJFSuwmZI/4Ui9COX9ZCFCI09UHyH4wVYl3A==",
+      "type": "package",
+      "path": "dapper/2.1.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.24.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/net7.0/Dapper.dll",
+        "lib/net7.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
@@ -927,27 +962,24 @@
     "net6.0": [
       "APILHS.DATA >= 1.0.0",
       "APILHS.MODELS >= 1.0.0",
+      "Dapper >= 2.1.24",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alex\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\willi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Documents\\Proyectos\\LHS-IRAS-TESIS\\api\\APILSH\\APILHS.csproj",
+      "projectUniqueName": "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\APILSH\\APILHS.csproj",
       "projectName": "APILHS",
-      "projectPath": "C:\\Users\\Alex\\Documents\\Proyectos\\LHS-IRAS-TESIS\\api\\APILSH\\APILHS.csproj",
-      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Documents\\Proyectos\\LHS-IRAS-TESIS\\api\\APILSH\\obj\\",
+      "projectPath": "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\APILSH\\APILHS.csproj",
+      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+      "outputPath": "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\APILSH\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -961,11 +993,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Alex\\Documents\\Proyectos\\LHS-IRAS-TESIS\\api\\APILHS.DATA\\APILHS.DATA.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Documents\\Proyectos\\LHS-IRAS-TESIS\\api\\APILHS.DATA\\APILHS.DATA.csproj"
+            "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\APILHS.DATA\\APILHS.DATA.csproj": {
+              "projectPath": "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\APILHS.DATA\\APILHS.DATA.csproj"
             },
-            "C:\\Users\\Alex\\Documents\\Proyectos\\LHS-IRAS-TESIS\\api\\APILHS.MODELS\\APILHS.MODELS.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Documents\\Proyectos\\LHS-IRAS-TESIS\\api\\APILHS.MODELS\\APILHS.MODELS.csproj"
+            "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\APILHS.MODELS\\APILHS.MODELS.csproj": {
+              "projectPath": "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\APILHS.MODELS\\APILHS.MODELS.csproj"
             }
           }
         }
@@ -980,6 +1012,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.24, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.5.0, )"
@@ -996,6 +1032,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1004,7 +1058,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

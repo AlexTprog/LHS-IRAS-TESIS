@@ -1,38 +1,20 @@
-﻿using APILHS.MODELS;
-using System;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
-
+using APILHS.MODELS;
 namespace APILHS.DATA
 {
     public class DataAccess
     {
-        private readonly string connectionString;
+        public readonly string connectionString = $"Server=localhost;Database=TuBaseDeDatos;User=TuUsuario;Password=TuContraseña;";
 
-        public DataAccess()
+        public static string Get()
         {
-            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder
-            {
-                DataSource = "",
-                UserID = "",
-                Password = "",
-            };
+           
+            string connection = string.Format("Server={0};Database={1};User={2};Password={3};",
+            "LAPTOP-9T93LIFD\\SERVIDORSQL", "BD_HOSPITALES", "weduardo", "sysadmin");
 
-            connectionString = builder.ConnectionString;
+            return connection;
         }
 
-        public IDataReader InsertDiagnotico(Diagnostico diag)
-        {
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                string storedProcedureName = "Sp";
-                SqlCommand command = new SqlCommand(storedProcedureName, connection);
-
-                connection.Open();
-                command.CommandType = CommandType.StoredProcedure;
-                command.Parameters.AddWithValue("@Param", diag.Id);
-                return command.ExecuteReader();
-            }
-        }
     }
 }

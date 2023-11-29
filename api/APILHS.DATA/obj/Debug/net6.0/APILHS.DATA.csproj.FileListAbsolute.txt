@@ -1,0 +1,16 @@
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\bin\Debug\net6.0\APILHS.DATA.deps.json
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\bin\Debug\net6.0\APILHS.DATA.dll
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\bin\Debug\net6.0\APILHS.DATA.pdb
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\APILHS.DATA.csproj.AssemblyReference.cache
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\APILHS.DATA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\APILHS.DATA.AssemblyInfoInputs.cache
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\APILHS.DATA.AssemblyInfo.cs
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\APILHS.DATA.csproj.CoreCompileInputs.cache
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\APILHS.DATA.sourcelink.json
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\APILHS.DATA.dll
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\refint\APILHS.DATA.dll
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\APILHS.DATA.pdb
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\ref\APILHS.DATA.dll
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\bin\Debug\net6.0\APILHS.MODELS.dll
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\bin\Debug\net6.0\APILHS.MODELS.pdb
+D:\Universidad - Ciclos\CICLO IX\Tesis l\LHS - Proyecto\LHS-IRAS-TESIS\api\APILHS.DATA\obj\Debug\net6.0\APILHS.DATA.csproj.CopyComplete

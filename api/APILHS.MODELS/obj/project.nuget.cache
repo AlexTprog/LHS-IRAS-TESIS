@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "i5ovKjgXPaLKIKSozd4TU1+As2vvRhCt0mBycUGDDrvqr6y3Bq/fJFZevu7BF8XHBk98S5QP5qBBojru/JshZw==",
+  "dgSpecHash": "RSfk3UfdoV5BIS92WSLLH3w2buaXDYBNxESQAH3i+IBLX7DKGPEtvn9eg7z9+vJW71xUIMLKXG9lxzWFARNGjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Documents\\Proyectos\\LHS-IRAS-TESIS\\api\\APILHS.MODELS\\APILHS.MODELS.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Universidad - Ciclos\\CICLO IX\\Tesis l\\LHS - Proyecto\\LHS-IRAS-TESIS\\api\\APILHS.MODELS\\APILHS.MODELS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

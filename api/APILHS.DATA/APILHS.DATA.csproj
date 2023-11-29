@@ -10,4 +10,16 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.1.24" />
+	</ItemGroup>
+	
+  <ItemGroup>
+  	<ProjectReference Include="..\APILHS.MODELS\APILHS.MODELS.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Login\" />
+  </ItemGroup>
+	
 </Project>
