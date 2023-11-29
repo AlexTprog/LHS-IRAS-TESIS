@@ -30,15 +30,6 @@ namespace APILHS.DATA.Diagnostico
                     Regist = dtDiagnostico.AsTableValuedParameter("dbo.MassiveRegist")
                 };
 
-                foreach (var item in lDiagnostico.DiagnosticList)
-                {
-                    var props = item.GetType().GetProperties();
-                    foreach (var prop in props)
-                    {
-                        Console.WriteLine($"{prop.Name}: {prop.PropertyType}");
-                    }
-                }
-
                 dynamic diagnostic = connection.Query("LHS_DiagnosticByMassive",parameter, commandType: CommandType.StoredProcedure).ToList();
 
                 return diagnostic;
